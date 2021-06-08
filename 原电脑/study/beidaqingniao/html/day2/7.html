@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单示例</title>
+</head>
+<body>
+<form>
+    <p>
+        城市:
+        <select name="city">
+        <optgroup label="华东">
+            <option value="nj">南京</option>
+            <option value="sh">上海</option>
+        </optgroup>
+        <optgroup label="华北">
+            <option value="wh">武汉</option>
+            <option value="wx">无锡</option>
+       </optgroup>
+        </select>
+    </p>
+    <p>
+			兴趣爱好：
+			<select multiple name="hobby" size="5" >
+				<option>足球</option>
+				<option>篮球</option>
+				<option>排球</option>
+				<option>网球</option>
+				<option>桌球</option>
+				<option>垒球</option>
+				<option>乒乓球</option>
+			</select>
+		</p>
+		<p>
+			个人简介：
+			<textarea cols="30" name="memo" rows="10" wrap="off"></textarea>
+		</p>
+    <p>
+        <button>提交</button>
+        <button type="reset">重置</button>
+        <button type="button">无用按钮</button>
+    </p>
+</form>
+</body>
+</html>

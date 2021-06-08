@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js比较运算符和逻辑运算符等</title>
+    <script type="text/javascript">
+        let a=10;
+        let b=5;
+        let c='10';
+        console.log("a>b=", a>b);
+        console.log("a==c=", a==c); //只比较内容
+        console.log("a===c=", a===c); //必须类型相同, 值相同
+        let d=a>10 && b++>1;
+        console.log('d=', d, 'b=', b);
+        d=a>=10 && b++>1;
+        console.log('d=', d, 'b=', b);
+        d=a>=10 || b++>1;
+        console.log('d=', d, 'b=', b);
+        let e=a>b?a:b; //获取a,b中的较大数
+        console.log(e);
+        let g="b";
+        let h=a*g;
+        console.log(h)
+    </script>
+</head>
+<body>
+
+</body>
+</html>

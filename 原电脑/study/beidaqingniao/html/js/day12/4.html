@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <title>自定义函数: 回调1</title>
+    <script type="text/javascript">
+        // 回调: callback  调用: call
+        function test1() {
+          console.log("test1");
+          return test2;
+        }
+        function test2() {
+          console.log("test2");
+        }
+        // 无括号: 回调  等页面加载完成在调用
+        // onload=test1;
+        // 有括号: 调用 立即执行
+        onload=test1();
+
+    </script>
+</head>
+<body>
+    <script type="text/javascript">
+        console.log("3. body")
+    </script>
+</body>
+</html>

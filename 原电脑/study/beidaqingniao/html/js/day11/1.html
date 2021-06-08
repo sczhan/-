@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内置函数</title>
+    <script type="text/javascript">
+        let s1="12.13";
+        let s2="23a";
+        let s3="a23";
+        let n1=s1*1;
+        let n2=parseFloat(s1);
+        console.log(s1,n1, n2);
+        n1=s2*1;
+        n2=parseFloat(s2);
+        console.log(s2,n1, n2);
+        n1=s3*1;
+        n2=parseFloat(s3);
+        console.log(s3,n1, n2);
+        console.log("===================");
+        s3="101中学";
+        n1=s3*1;
+        n2=parseInt(s3);
+        console.log(s3,n1, n2);
+        s3="0x10";
+        n1=s3*1;
+        n2=parseInt(s3);
+        console.log(s3,n1, n2);
+        s3="10";
+        n1=s3*1;
+        n2=parseInt(s3, 16);
+        console.log(s3,n1, n2);
+        console.log("===================");
+        s3="10";
+        n1=parseInt(s3, 16);
+        n2=parseInt(s3, 36);
+        let n3=parseInt(s3, 37);
+        console.log(s3,n1, n2, n3); //2 36 nan
+        s3="z";
+        n1=parseInt(s3, 16);
+        n2=parseInt(s3, 36);
+        n3=parseInt(s3, 37);
+        console.log(s3,n1, n2, n3); //nan 35 nan
+        n1=parseInt("0xG8");
+        n2=parseInt("8.25");
+        n3=parseInt("-010");
+        console.log(n1, n2, n3);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

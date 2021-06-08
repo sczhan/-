@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js  if与switch示例</title>
+    <script type="text/javascript">
+        let month=prompt("请输入月份");
+        if(month==1 || month==3){
+            console.log("31");
+        }
+        else if(month==2){
+            console.log("28");
+        }
+        else if(month==4){
+            console.log("30");
+        }
+        else{
+            console.log('错误月份');
+        }
+        let m=month*1
+        switch (m) {
+            case 1:
+            case 3:
+                console.log(31);
+                break;
+            case 2:
+                console.log(28);
+                break;
+            // case 3:
+            //     console.log(31);
+            //     break;
+            case 4:
+                console.log(30);
+                break;
+            default:
+                console.log("错误月份");
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

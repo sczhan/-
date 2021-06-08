@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5新增表单元素</title>
+</head>
+<body>
+<input form="fm1" name="test" type="text">
+    <form action="1.html" autocomplete="off" id="fm1">
+        <p>
+            <label for="name">姓名: </label>
+            <input autofocus id="name" name="name" placeholder="请输入姓名"
+            type="text">
+        </p>
+         <p>
+            <label for="city">城市: </label>
+            <input id="city" list="city_list" name="city" type="text">
+             <datalist id="city_list">
+                 <option label="NJ" value="南京"/>
+                 <option label="SH" value="上海"/>
+                 <option label="BJ" value="北京"></option>
+             </datalist>
+        </p>
+        <p>
+            <label for="email">*Email: </label>
+            <input autocomplete="on" id="email" name="email" required type="email">
+        </p>
+
+        <p>
+            <label for="headimgs">头像: </label>
+            <input id="headimgs" multiple name="imgs" type="file">
+        </p>
+
+        <p>
+            <label for="homepage">个人主页: </label>
+            <input id="homepage" name="url" type="url">
+        </p>
+        <p>
+            <label for="age">年龄: </label>
+            <input id="age" max="40" min="16" name="age" step="2" type="number">
+        </p>
+        <p>
+            <label for="salary">月薪: </label>
+            <input id="salary" max="10000" min="0" name="salary" type="range">
+        </p>
+        <p>
+            <label for="birth">生日: </label>
+            <input id="birth" name="birth" type="date">
+        </p>
+         <p>
+            <label for="phone">联系电话: </label>
+            <input id="phone" name="phone" type="tel">
+        </p>
+        <p>
+            <label for="key">关键词: </label>
+            <input id="key" name="key" type="search">
+        </p>
+
+        <p>
+            <label for="idcard">身份证: </label>
+            <input id="idcard" name="idcard" pattern="[0-9]{17}[0-9X]" type="text">
+         </p>
+        <button type="submit">GET提交</button>
+        <button formaction="1.html" type="submit">GET提交到1.html</button>
+        <button formaction="2.html" type="submit">GET提交2.html</button>
+        <button formmethod="post" type="submit">Pst提交</button>
+        <button type="reset">重置</button>
+    </form>
+</body>
+</html>

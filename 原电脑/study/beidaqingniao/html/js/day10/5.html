@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        // let s='';
+        // // 控制行数
+        // for(let j=1; j<=4; j++) {
+        //     let s = "";
+        //     //控制每行的数量
+        //     for (let i = 1; i <= 5; i++) {
+        //         s += "* ";
+        //     }
+        //     s+="\n"'
+        // }
+        // console.log(s);
+
+        // 控制行数
+        let stars=prompt("请输入每行*的数量");
+        let lines=prompt("请输入行");
+        for(let j=1; j<=lines; j++) {
+            let s="";
+            // 控制每行开头空格数量
+            for (let k=1;k<=lines-j;k++) {
+                s += "  ";
+            }
+            //控制每行的数量
+            for (let i=1; i<=stars; i++) {
+                s+= "* ";
+            }
+            console.log(s)
+        }
+        // for(let i=1; i<=10; i++){
+        //     if(i%2){
+        //         continue
+        //     }
+        //     console.log(i)
+        // }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

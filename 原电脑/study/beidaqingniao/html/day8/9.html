@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画</title>
+    <style  type="text/css">
+        div{
+            width: 480px;
+            height: 480px;
+            border: 1px solid red;
+            margin: 80px auto;
+            position: relative;
+        }
+        img{
+            width:100px; height: 100px;
+            display: block; margin-top: 190px;
+            position: absolute;
+            left: 0px;
+            animation: move 2000ms linear 2s infinite alternate;
+        }
+        @keyframes move {
+            from{left: 100px}
+            to{left: 380px}
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="">
+    </div>
+</body>
+</html>

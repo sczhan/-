@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh">
+ <head>
+  <meta charset="UTF-8">
+  <link href="css/style.css" rel="stylesheet">
+  <title>仿京东企业用户注册</title>
+ </head>
+ <body>
+	<form action="" class="reg-box" method="post">
+		<h3>账户信息</h3>
+		<div class="item">
+			<label class="label"><span>*</span>用户名：</label><input id="nick" name="nick" type="text" />
+		</div>
+		<div class="item">
+			<label class="label"><span>*</span>请设置密码：</label><input class="nick" name="psw" type="password"/>
+		</div>
+		<div class="item">
+			<label class="label"><span>*</span>请确认密码：</label><input class="nick" name="pswAgin" type="password"/>
+		</div>
+		<h3>联系人信息</h3>
+		<div class="item">
+			<label class="label"><span>*</span>联系人姓名：</label><input name="name" type="text"/>
+		</div>
+		<div class="item">
+			<label class="label"><span>*</span>所在部门：</label>
+			<select class="se"><option>请选择</option><option>办公室</option><option>市场部</option><option>技术部</option></select>
+		</div>
+		<div class="item">
+			<label class="label"><span>*</span>固定电话：</label><input name="tel" type="text"/>
+		</div>
+		<h3>公司信息</h3>
+		<div class="item">
+			<label class="label"><span>*</span>公司名称：</label><input name="companyname" type="text"/>
+		</div>
+		<div class="ty">
+			<label><span>*</span>购买类型/用途：</label>
+			<input id="popus1" name="type" type="checkbox"/><label class="type" for="popus1">IT设备</label>
+			<input id="popus2" name="type" type="checkbox"/><label class="type" for="popus2">数码通讯</label>
+			<input id="popus3" name="type" type="checkbox"/><label class="type" for="popus3">办公用品耗材</label>
+			<input id="popus4" name="type" type="checkbox"/><label class="type" for="popus4">大家电</label>
+			<input id="popus5" name="type" type="checkbox"/><label class="type" for="popus5">项目合作-政府采购</label>
+			<input id="popus6" name="type" type="checkbox"/><label class="type" for="popus6">礼品</label>
+		</div>
+		<div class="input">
+			<label></label>
+			<input class="red" type="button" value="立即注册"/>
+		</div>
+	</form>
+ </body>
+</html>

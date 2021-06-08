@@ -1,0 +1,155 @@
+*{margin: 0;padding: 0;}
+
+.wrap{
+    width: 990px;
+    margin: 0 auto;
+}
+a:link{text-decoration: none}
+a:visited{color: blue}
+.logo-box{
+    width: 100%;
+}
+.logo-box:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.logo-r{
+    font-size: 28px;
+    font-weight: bold;
+    color: darkgray;
+    display: inline-block;
+    line-height: 60px;
+    height: 60px;
+}
+
+.left{float: left; left: 20px}
+
+.content{
+    width: 100%;
+    min-width: 990px;
+    background-color: #e93854;
+}
+
+.login-box{
+    width: 100%; height: 475px;
+    background-image: url("../imgs/banner.png");
+}
+.login-form{
+    float: right;
+    margin-top: 35px;
+    background-color: #fff;
+    width: 345px;
+    height: 280px;
+    padding: 20px;
+}
+
+.login-form>h2{
+    font-size: 24px;
+    font-weight: 300;
+    color: darkgray;
+}
+
+.login-form>h2>a{
+    float: right;
+    color: #e93854;
+    font-weight: 100;
+    font-size: 14px;
+    display: inline-block;
+    height: 33px;
+    line-height: 33px;
+}
+
+.login-form>h2>a:before{
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url("../imgs/login-icons.png") -104px -74px no-repeat;
+    position: relative;
+    top: 4px;
+}
+
+.item{height: 40px;
+margin: 15px 0;}
+
+.item2>label{
+    position: absolute;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.item2>a{
+	color: black;
+    font-size: 13px;
+    float: right;
+    margin-bottom: 15px;
+}
+.nick{width: 38px;
+height: 38px;
+background: url("../imgs/login-icons.png") no-repeat;
+border: 1px solid gray;
+}
+.psw{
+    width: 38px;
+    height: 38px;
+    background: url("../imgs/login-icons.png") -46px 0px no-repeat;
+    border: 1px solid gray;
+}
+
+.item input{
+    outline: none;
+    border: 1px solid gray;
+    border-left: none;
+    display: inline-block;
+    width: 299px;
+    height: 38px;
+    font-size: 16px;
+    padding-left: 5px;
+    float: left;
+}
+
+.item input.pass{border-right: none;
+width: 260px;}
+
+.item.inp2:after{
+    content: "";
+    display: inline-block;
+    border: 1px solid gray;
+    border-left: none;
+    height: 38px;
+    width: 39px;
+    background: url("../imgs/login-icons.png") -95px 15px no-repeat;
+}
+
+a.login-btn{
+    width: 345px;
+    height: 40px;
+    background-color: #e93854;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFF;
+    display: inline-block;
+    text-align: center;
+}
+
+.link{
+    position:absolute;
+	background-color: #fff;
+	width: 990px;
+	height: 5%;
+	text-align: center;
+	line-height: 65px;
+}
+.link>a{
+	font-size: 13px;
+	color: gray;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 25px;
+}
+.copy{
+	line-height: 115px;
+	text-align: center;
+}
+
+

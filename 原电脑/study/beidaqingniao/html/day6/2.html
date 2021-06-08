@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动定位</title>
+    <style type="text/css">
+        div{
+            width: 200px;
+            border: 1px solid blue;
+        }
+        span{
+            border: 1px solid red;
+            float: left;
+        }
+        /*footer{*/
+        /*    clear: both;*/
+        /*}*/
+    div:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+
+
+    </style>
+</head>
+<body>
+<div>
+    <span>span1</span>
+    <span>span2</span>
+    <span>span3</span>
+<!--    <footer></footer>-->
+</div>
+</body>
+</html>

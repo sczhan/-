@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>父元素对于子元素绝对定位的影响</title>
+    <style type="text/css">
+        .p1{
+            width: 300px;
+            height: 100px;
+            border: 1px solid red;
+            position: relative;
+        }
+        .p2{
+            width: 300px;
+            height: 100px;
+            border: 1px solid red;
+            position: absolute;
+        }
+        .s1{
+            width: 100px;
+            height: 50px;
+            border: 1px solid green;
+            position: absolute;
+            top:10px;
+            left:10px;
+        }
+        .s2{
+            width: 100px;
+            height: 50px;
+            border: 1px solid green;
+            position: absolute;
+            top:10px;
+            left:10px;
+        }
+    </style>
+</head>
+<body>
+<div class="p1">
+    <div class="s1"></div>
+    this is div s1 in div p1
+</div>
+<hr>
+<div class="p2">
+    <div class="s2"></div>
+    this is div s1 in div p1
+</div>
+<!--p{line$}*20-->
+</body>
+</html>

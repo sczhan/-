@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3: 新增状态伪类</title>
+    <style type="text/css">
+		input{border:1px solid #000;outline: none;}
+		input:focus{border-color: red;}
+		input:read-only{color:gray;}
+		textarea::selection{
+			background-color: yellow;color:red;
+		}
+	</style>
+</head>
+<body>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <textarea></textarea>
+</body>
+</html>

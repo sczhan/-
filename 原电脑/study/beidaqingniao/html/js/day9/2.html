@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>外部js</title>
+    <!--内部js-->
+    <script type="text/javascript">
+        console.log('hello js')
+    </script>
+    <!--外部js-->
+    <script src="js/js.js" type="text/javascript">
+    </script>
+</head>
+<body>
+<!--行内js: 一般写在事件中(以on开头), a标签还可以写在功能链接里-->
+<button onclick="console.log('hello js 3')">测试</button>
+<a href="javascript:console.log('hello js 4')">a测试</a>
+</body>
+</html>

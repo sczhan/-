@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js算术运算符</title>
+    <script type="text/javascript">
+        let a=10;
+        let b=a+5;
+        console.log(b, typeof b);
+        let c=a+"5";
+        console.log(c, typeof c);
+        let d=a/3;
+        console.log("10/3=",d); //3.333....5
+        d=a/0;
+        console.log("10/0=",d); //Infinity
+        d=-a/0;
+        console.log("10/0=",d); //-Infinity
+        d=0/0;
+        console.log("0/0=",d);  //NaN
+        let e=a%3;
+        console.log("3%3=",e); //1
+        let f=a++;
+        console.log("f=a++",f, "a=", a);
+        a=10;
+        f= ++a;
+        console.log("f=a++",f, "a=", a);
+        let g=a--;
+        console.log("g=a--",g);
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

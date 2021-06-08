@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动定位2</title>
+    <style type="text/css">
+        div{
+            width: 300px;
+            border: 1px solid blue;
+        }
+        span{
+            border: 1px solid red;
+            float: left;
+            display: inline-block;
+            width: 98px;
+            height: 30px;
+        }
+        /*footer{*/
+        /*    clear: both;*/
+        /*}*/
+    div:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .sp1{
+        height: 31px;
+    }
+    .sp2{
+        width: 110px;
+        height: 31px;
+    }
+
+    </style>
+</head>
+<body>
+<div>
+    <span >span1</span>
+    <span class="sp1">span2</span>
+    <span>span3</span>
+    <span class="sp2">span4</span>
+<!--    <footer></footer>-->
+</div>
+</body>
+</html>

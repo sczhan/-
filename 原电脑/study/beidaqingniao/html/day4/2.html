@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS选择器</title>
+    <style type="text/css">
+        p.c1{
+            color: red!important;
+        }
+        h1,div,span,.c2{
+            color: blue;
+        }
+        .c3>h2>span{
+            color: pink;
+
+        }
+        </style>
+    </head>
+<body>
+    <p>line1</p>
+    <p class="c1">lin2</p>
+    <p class="c2">line3</p>
+    <hr>
+
+    <h1>line5</h1>
+    <div>lin6</div>
+    <p><span>line</span>7</p>
+    <hr>
+    <h2>this is <span>line</span> 8</h2>
+	<h2 class="c3">this is <span>line</span> 9</h2>
+	<div class="c3">
+		<h2>this is <span>line</span> 10</h2>
+	</div>
+	<div class="c3">
+		<article>
+			line 11
+			<h2><span>line</span> 12</h2>
+			line 13
+		</article>
+	</div>
+
+</body>
+</html>

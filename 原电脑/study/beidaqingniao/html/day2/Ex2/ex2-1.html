@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拍拍用户注册</title>
+</head>
+<body>
+<form action="ex2-2.html" method="post" >
+    <table align="center" border="1">
+        <tbody>
+        <tr align="center" height="50" valign="top">
+            <td colspan="2" >拍拍网用户注册</td>
+        </tr>
+
+        <tr>
+            <td>真实姓名: </td>
+            <td><input name="name" type="text" value=""></td>
+        </tr>
+
+        <tr>
+            <td>用户性别: </td>
+            <td>
+                <input name="gender" type="radio" value="man"> 男
+                <input name="gender" type="radio" value="woman"> 女
+            </td>
+        </tr>
+
+        <tr>
+            <td>密码:</td>
+            <td>
+                <input name="pass" type="password" value="">
+            </td>
+        </tr>
+
+        <tr>
+            <td>密码保护问题:</td>
+            <td>
+                <select name="hobby">
+                    <option value="home">你的家庭住址</option>
+                    <option value="m_name">你母亲的姓名</option>
+                    <option value="f_name">你父亲的姓名</option>
+                    <option selected>选择一个问题</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>请选择关注的商品类别: </td>
+            <td>
+                <input name="category" type="checkbox" value="dp">数码产品
+                <input name="category" type="checkbox" value="ss">运动系列
+                <input name="category" type="checkbox" value="hg">家居用品
+                <input name="category" type="checkbox" value="aav">音像制品
+            </td>
+        </tr>
+
+        <tr align="center">
+            <td colspan="2">
+                <button>提交</button>
+                <button type="reset">清空</button>
+                <br>
+                点击提交, 即表示同意接受下面《拍拍协议》
+            </td>
+        </tr>
+
+        <tr>
+            <td>拍拍协议</td>
+            <td>
+            <textarea  cols="50" name="meno" rows="5" style="resize: none" wrap="auto">
+    尊敬的用户，欢迎阅读本协议：
+    腾讯公司依据本协议的规定提供服务，本协议具有合同效力。您必须完全同意本协议，才能够享受本网站提供的服务。您在拍拍网登录即表示您完全接受本协议的全部条款。
+    重要须知：腾讯在此特别提醒用户认真阅读本《拍拍网用户服务协议》-—-用户应认真阅读本《拍拍网用户服务协议》（下称《协议》）中各条款，包括免除或者限制腾讯责任的免责条款及对用户的权利限制。请您审阅并接受或不接受本《协议》（未成年人应在法定监护人陪同下审阅）。除非您接受本《协议》条款，否则您无权使用本网站提供的相关服务。您的使用行为将视为对本《协议》的接受，并同意接受本《协议》各项条款的约束。
+            </textarea>
+            </td>
+        </tr>
+
+        </tbody>
+</table>
+</form>
+
+</body>
+</html>

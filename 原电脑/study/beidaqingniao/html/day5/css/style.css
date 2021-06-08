@@ -1,0 +1,80 @@
+.bd1{
+    border:1px solid red;
+}
+.bd2{
+    border:3px double red;
+}
+.bd3{
+    border:3px dotted red;
+}
+
+.bd4{
+    border-style: double;
+    border-width: 6px;
+    border-color: #FF0000;
+}
+
+.bd5{
+    border-top: none;
+    border-bottom: 1px solid red;
+    border-left: none;
+    border-right: none;
+}
+
+.bd6{
+    border: none;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    outline: none;
+}
+
+.lt1{
+    list-style:upper-roman outside;
+}
+
+.lt2{
+    list-style:none inside url("../imgs/logo.png");
+}
+
+.sp1{
+    display: block;
+    width: 100px;
+    border: 1px solid red;
+}
+
+.sp2{
+    display: inline;
+}
+
+.sp3{
+    display: inline-block;
+}
+
+.sp4{
+    display: none;
+}
+
+.sp5{
+    visibility: hidden;
+}
+
+.d1{
+    width: 500px;
+    height: 240px;
+    border: 1px solid red;
+    background: blue url("../imgs/logo.png") repeat-x;
+}
+
+.d2{
+    width: 2000px;
+    height: 1000px;
+    border: 1px solid red;
+    background: blue url("../imgs/banner.png") no-repeat center;
+}
+
+.d3{
+    width: 2000px;
+    height: 1000px;
+    border: 1px solid red;
+    overflow: scroll;
+    background: blue url("../imgs/banner.png") no-repeat center scroll;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义函数: 参数1</title>
+    <script type="text/javascript">
+        // function test2(a, b) {
+        //     return a>b?a:b;
+        // }
+        // console.log(test2(3, 7));
+        // console.log(test2(3, -7));
+        // console.log(test2(3));
+        // console.log(test2(3, -7, 8));
+
+        function test3(a, b, c) {
+            if(c===undefined){
+                return a>b?a:b;
+            }
+            return a>b?(a>c?a:c):(b>c?b:c);
+        }
+        console.log(test3(3, -7));
+    </script>
+</head>
+<body>
+
+</body>
+</html>

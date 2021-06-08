@@ -1,0 +1,48 @@
+.reg-box{
+    border-style: none solid solid solid;
+    border-width: 1px;
+    margin: auto;
+}
+h3{
+    background-color: #c0c0c0;
+    border-style: solid none none  solid;
+    border-width: 1px;
+    text-align:left;
+}
+
+.item{
+    height: 60px;
+    font-size: 18px;
+    text-align: right;
+	margin-right: 45%;
+}
+
+
+span{color: red;}
+
+#nick{
+    background-image: url("../imgs/one4.jpg");
+    background-repeat: no-repeat;
+	background-position:100% 0;
+}
+
+.nick{
+    background-image: url("../imgs/one5.jpg");
+    background-repeat: no-repeat;
+	background-position:100% 0;
+}
+
+.red{
+    background-color: red;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sel{
+    text-align: right!important;
+	margin-right:10%;
+}
+
+

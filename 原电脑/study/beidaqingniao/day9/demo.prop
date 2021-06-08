@@ -1,0 +1,12 @@
+#基本配置
+username=root
+password=123456
+#初始数量
+initialSize=5
+#最大数量
+
+maxActive=10
+#最小数量
+minIdle=10
+#最大空闲数量
+maxIdle=5

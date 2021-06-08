@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js内置函数2</title>
+    <script type="text/javascript">
+        let rt=eval("3+3*3");
+        console.log(rt);
+        let rt1=eval("rt-4");
+        console.log(rt1);
+        let rt2=eval("if (rt1!=8){rt1+10;} else{rt1+100;}");
+        console.log(rt2);
+        console.log("===================");
+        let s="hsjdhkadsasd是的撒";
+        let es=escape(s);
+        console.log(es);
+        let se=unescape(es);
+        console.log(se);
+        s="hsjdhkadsasd是的撒";
+        let des=encodeURI(s);
+        console.log(des);
+        let desu=decodeURI(des);
+        console.log(desu);
+        console.log(isNaN(2));
+    </script>
+</head>
+<body>
+
+</body>
+</html>

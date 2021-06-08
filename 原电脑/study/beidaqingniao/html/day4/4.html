@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS选择器4</title>
+    <style type="text/css">
+        h1::first-letter{
+            color: red;
+
+        }
+        h1:first-line{
+            color: green;
+        }
+        h1.mi10-price:after{
+            content: "4399元";
+            color: red;
+            size: 100px;
+        }
+
+        h1.lol:before{
+            content: "英雄";
+        }
+    </style>
+</head>
+<body>
+    <h1>this is link</h1>
+    <h1>this is link <br>
+    this is link</h1>
+    <h1>this is link</h1>
+    <h1 class="mi10-price"> MI 10(8+256): </h1>
+    <h1 class="lol">联盟</h1>
+</body>
+</html>
