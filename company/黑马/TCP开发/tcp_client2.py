@@ -17,3 +17,4 @@ if __name__ == '__main__':
 
     # 5.关闭客户端套接字
     tcp_client_socket.close()
+    print(1)
