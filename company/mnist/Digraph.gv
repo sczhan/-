@@ -1,0 +1,11 @@
+digraph {
+	x [labels=x]
+	a [labels=a]
+	b [labels=b]
+	mul [labels=mul]
+	x -> mul
+	a -> mul
+	add [labels=add]
+	mul -> add
+	b -> add
+}
