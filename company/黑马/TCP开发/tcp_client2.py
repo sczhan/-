@@ -12,7 +12,7 @@ if __name__ == '__main__':
     tcp_client_socket.send("2".encode(encoding="utf-8"))
 
     # 4.接收数据 recv阻塞等待数据的到来
-    recv_data = tcp_client_socket.recv(1024)
+    recv_data = tcp_client_socket.recv(1024 )
     print(recv_data.decode(encoding='utf-8'))
 
     # 5.关闭客户端套接字

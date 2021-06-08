@@ -38,3 +38,4 @@ if __name__ == '__main__':
 
 
     # tcp_server_socket.close()
+8% 306/3509 16.40   31.24mb
